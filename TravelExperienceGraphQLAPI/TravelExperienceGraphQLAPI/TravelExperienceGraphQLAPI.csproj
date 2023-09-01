@@ -6,4 +6,18 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="GraphQL.Server.Ui.Playground" Version="7.6.0" />
+    <PackageReference Include="GraphQL.Server.Ui.Voyager" Version="7.6.0" />
+    <PackageReference Include="HotChocolate.AspNetCore" Version="13.5.1" />
+    <PackageReference Include="MySql.Data" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="GraphQL\Types\" />
+    <Folder Include="Models\" />
+    <Folder Include="Resolvers\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>
