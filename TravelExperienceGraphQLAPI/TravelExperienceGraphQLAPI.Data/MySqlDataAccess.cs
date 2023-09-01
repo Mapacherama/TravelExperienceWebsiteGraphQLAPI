@@ -1,10 +1,9 @@
 ﻿using MySql.Data.MySqlClient;
 using System.Data;
-using WeightliftingTrackerGraphQLAPI.Data;
 
 namespace TravelExperienceGraphQLAPI.Data
 {
-    internal class MySqlDataAccess : IMySqlDataAccess
+    public class MySqlDataAccess : IMySqlDataAccess
     {
         private readonly string _connectionString;
 

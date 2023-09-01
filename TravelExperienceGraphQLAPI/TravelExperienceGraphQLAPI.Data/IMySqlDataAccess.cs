@@ -1,7 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System.Data;
 
-namespace WeightliftingTrackerGraphQLAPI.Data
+namespace TravelExperienceGraphQLAPI.Data
 {
     public interface IMySqlDataAccess
     {

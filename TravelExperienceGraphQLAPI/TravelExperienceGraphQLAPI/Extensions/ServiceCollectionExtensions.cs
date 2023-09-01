@@ -1,6 +1,8 @@
-﻿namespace TravelExperienceGraphQLAPI.Extensions
+﻿using TravelExperienceGraphQLAPI.Data;
+
+namespace TravelExperienceGraphQLAPI.Extensions
 {
-    public class ServiceCollectionExtensions
+    public static class ServiceCollectionExtensions
     {
         public static IServiceCollection AddDataServices(this IServiceCollection services, string connectionString)
         {

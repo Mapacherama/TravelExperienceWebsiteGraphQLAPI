@@ -20,4 +20,8 @@
     <Folder Include="Repositories\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TravelExperienceGraphQLAPI.Data\TravelExperienceGraphQLAPI.Data.csproj" />
+  </ItemGroup>
+
 </Project>
