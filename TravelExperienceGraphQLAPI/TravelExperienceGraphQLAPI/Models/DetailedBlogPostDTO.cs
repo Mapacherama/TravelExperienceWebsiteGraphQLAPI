@@ -1,6 +1,6 @@
 ﻿namespace TravelExperienceGraphQLAPI.Models
 {
-    public class DetailedBlogPostsDTO
+    public class DetailedBlogPostDTO
     {
     }
 }

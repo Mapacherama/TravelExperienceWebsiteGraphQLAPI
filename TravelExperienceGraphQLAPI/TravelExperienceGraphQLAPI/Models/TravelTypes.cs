@@ -2,11 +2,11 @@
 
 namespace TravelExperienceGraphQLAPI.Models
 {
-    public class TipCategory
+    public class TravelTypes
     {
         [Key]
         public int Id { get; set; }
-        public string? Name { get; set; }
-        public ICollection<BlogPost>? BlogPosts { get; set; }
+        [Required]
+        public string? TypeName { get; set;}
     }
 }

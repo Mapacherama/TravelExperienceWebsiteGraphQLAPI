@@ -16,5 +16,8 @@ namespace TravelExperienceGraphQLAPI.Models
 
         public string? AdditionalImages { get; set; }
 
+        public BlogPost? BlogPost { get; set; }
+        // I can access the categories through this.
+
     }
 }

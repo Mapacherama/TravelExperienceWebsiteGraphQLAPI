@@ -2,11 +2,11 @@
 
 namespace TravelExperienceGraphQLAPI.Models
 {
-    public class BlogCategories
+    public class Subject
     {
-        [Key]
+        [Key] 
         public int Id { get; set; }
         [Required]
-        public string? Name { get; set; }
+        public string Name { get; set; }
     }
 }
