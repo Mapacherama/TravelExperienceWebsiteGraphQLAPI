@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <Folder Include="GraphQL\Types\" />
-    <Folder Include="Models\" />
     <Folder Include="Resolvers\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
